@@ -1,0 +1,27 @@
+{
+  "name": "Vitor Linaris",
+  "avatar": "./public/img/perfil.jpg",
+  "description": "Criadora de conteúdo, escritora e professora de história. Conheça o meu trabalho 👇🏽",
+  "links": [
+    { "title": "Título do Link 1", "url": "https://www.link1.com" },
+    { "title": "Título do Link 2", "url": "https://www.link2.com" },
+    { "title": "Título do Link 3", "url": "https://www.link3.com" }
+  ],
+  "socialLinks": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/usuario",
+      "icon": "url-do-icone-do-twitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/usuario",
+      "icon": "url-do-icone-do-facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/usuario",
+      "icon": "url-do-icone-do-instagram"
+    }
+  ]
+}

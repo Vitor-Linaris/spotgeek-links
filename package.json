@@ -1,0 +1,21 @@
+{
+  "name": "link-pages",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "description": "Crie uma página semelhante ao [Linktree](https://linktr.ee/), onde usuários possam exibir uma lista de seus links pessoais. Esta aplicação irá extrair informações de um arquivo JSON presente no repositório, proporcionando uma interface personalizada que imita uma mini página de perfil.",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
+}
