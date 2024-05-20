@@ -22,19 +22,24 @@
   ],
   "socialLinks": [
     {
-      "id": "1",
-      "linkTo": "#",
-      "name_social": "linkedin"
+      "linkTo": "https://www.instagram.com/spot_geek/",
+      "image": "/public/svg/instagram.svg",
+      "name_social": "Instagram"
     },
     {
-      "id": "2",
-      "linkTo": "#",
-      "name_social": "instagram"
+      "linkTo": "https://www.facebook.com/profile.php?id=61559161150678",
+      "image": "/public/svg/facebook.svg",
+      "name_social": "Facebook"
     },
     {
-      "id": "3",
-      "linkTo": "#",
-      "name_social": "facebook"
+      "linkTo": "https://www.tiktok.com/@spot.geek",
+      "image": "/public/svg/tiktok.svg",
+      "name_social": "Facebook"
+    },
+    {
+      "linkTo": "https://www.youtube.com/@SpotGeek",
+      "image": "/public/svg/youtube.svg",
+      "name_social": "Youtube"
     }
   ]
 }
