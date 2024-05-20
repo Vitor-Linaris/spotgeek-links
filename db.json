@@ -4,24 +4,20 @@
   "description": "Criadora de conteúdo, escritora e professora de história. Conheça o meu trabalho 👇🏽",
   "links": [
     {
-      "id": "1",
-      "linkTo": "#",
-      "name": "Livro: O cotidiano do Brasil"
+      "linkTo": "https://shopee.com.br/spotgeek?categoryId=100639&entryPoint=ShopByPDP&itemId=19799254997",
+      "name": "Shopee"
     },
     {
-      "id": "2",
-      "linkTo": "#",
-      "name": "Meu último vídeo"
+      "linkTo": "https://www.geralgeek.com.br/loja/spot-geek/56561",
+      "name": "Geral Geek"
     },
     {
-      "id": "3",
-      "linkTo": "#",
-      "name": "Portfólio"
+      "linkTo": "mailto:spotgeekloja@gmail.com",
+      "name": "E-mail"
     },
     {
-      "id": "4",
-      "linkTo": "#",
-      "name": "Agenda"
+      "linkTo": "https://wa.me/5511930698131",
+      "name": "WhatsApp"
     }
   ],
   "socialLinks": [
