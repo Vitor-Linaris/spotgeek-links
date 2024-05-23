@@ -27,22 +27,22 @@
   "socialLinks": [
     {
       "linkTo": "https://www.instagram.com/spot_geek/",
-      "image": "/assets/svg/instagram.svg",
+      "image": "./public/svg/instagram.svg",
       "name_social": "Instagram"
     },
     {
       "linkTo": "https://www.facebook.com/profile.php?id=61559161150678",
-      "image": "/assets/svg/facebook.svg",
+      "image": "./public/svg/facebook.svg",
       "name_social": "Facebook"
     },
     {
       "linkTo": "https://www.tiktok.com/@spot.geek",
-      "image": "/assets/svg/tiktok.svg",
+      "image": "./public/svg/tiktok.svg",
       "name_social": "Facebook"
     },
     {
       "linkTo": "https://www.youtube.com/@SpotGeek",
-      "image": "/assets/svg/youtube.svg",
+      "image": "./public/svg/youtube.svg",
       "name_social": "Youtube"
     }
   ]
