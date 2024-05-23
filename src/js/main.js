@@ -31,7 +31,7 @@ function carregar() {
     });
 }
 
-function carregarSocialMidia() {
+/* function carregarSocialMidia() {
   fetch("https://json-page-link.vercel.app/socialLinks")
     .then((response) => {
       if (!response.ok) {
@@ -67,8 +67,6 @@ function carregarSocialMidia() {
     .catch((error) => {
       console.error("Erro ao processar o JSON:", error);
     });
-}
+} */
 
 carregar();
-
-carregarSocialMidia();
