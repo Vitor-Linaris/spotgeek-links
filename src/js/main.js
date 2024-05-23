@@ -1,5 +1,5 @@
 function carregar() {
-  fetch("db.json")
+  fetch("/public/db.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Erro ao buscar o arquivo JSON" + response.statusText);
@@ -32,10 +32,10 @@ function carregar() {
 }
 
 function carregarSocialMidia() {
-  fetch("db.json")
+  fetch("/public/db.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("rro ao buscar o arquivo JSON" + response.statusText);
+        throw new Error("Erro ao buscar o arquivo JSON" + response.statusText);
       }
 
       return response.json();
