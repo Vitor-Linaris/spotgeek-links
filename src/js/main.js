@@ -1,5 +1,5 @@
 function carregar() {
-  fetch("/public/db.json")
+  fetch("https://json-page-link.vercel.app/links")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Erro ao buscar o arquivo JSON" + response.statusText);
@@ -8,8 +8,8 @@ function carregar() {
       return response.json();
     })
     .then((buttons) => {
-      if (Array.isArray(buttons.links)) {
-        buttons.links.forEach((button) => {
+      if (Array.isArray(buttons)) {
+        buttons.forEach((button) => {
           const container = document.querySelector(".container-links");
 
           const li = document.createElement("li");
@@ -32,7 +32,7 @@ function carregar() {
 }
 
 function carregarSocialMidia() {
-  fetch("/public/db.json")
+  fetch("https://json-page-link.vercel.app/socialLinks")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Erro ao buscar o arquivo JSON" + response.statusText);
@@ -41,8 +41,8 @@ function carregarSocialMidia() {
       return response.json();
     })
     .then((socialLinks) => {
-      if (Array.isArray(socialLinks.socialLinks)) {
-        socialLinks.socialLinks.forEach((socialLink) => {
+      if (Array.isArray(socialLinks)) {
+        socialLinks.forEach((socialLink) => {
           const container = document.querySelector(".social-links");
 
           const li = document.createElement("li");

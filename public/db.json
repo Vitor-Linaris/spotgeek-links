@@ -1,7 +1,11 @@
 {
-  "name": "Vitor Linaris",
-  "avatar": "./public/img/perfil.jpg",
-  "description": "Criadora de conteúdo, escritora e professora de história. Conheça o meu trabalho 👇🏽",
+  "header": [
+    {
+      "name": "Vitor Linaris",
+      "avatar": "./public/img/perfil.jpg",
+      "description": "Criadora de conteúdo, escritora e professora de história. Conheça o meu trabalho 👇🏽"
+    }
+  ],
   "links": [
     {
       "linkTo": "https://shopee.com.br/spotgeek?categoryId=100639&entryPoint=ShopByPDP&itemId=19799254997",
